@@ -1,0 +1,200 @@
+
+
+@media only screen and (min-width: 768px) {
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .m-0 {
+        display: none;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6,
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        display: block;
+    }
+
+    .m-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+
+    .m-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+
+    .m-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .m-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .m-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+
+    .m-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .m-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+
+    .m-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .m-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .m-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+
+    .m-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .m-o-1 {
+        margin-left: 8.33333%;
+    }
+
+    .m-o-2 {
+        margin-left: 16.66667%;
+    }
+
+    .m-o-3 {
+        margin-left: 25%;
+    }
+
+    .m-o-4 {
+        margin-left: 33.33333%;
+    }
+
+    .m-o-5 {
+        margin-left: 41.66667%;
+    }
+
+    .m-o-6 {
+        margin-left: 50%;
+    }
+
+    .m-o-7 {
+        margin-left: 58.33333%;
+    }
+
+    .m-o-8 {
+        margin-left: 66.66667%;
+    }
+
+    .m-o-9 {
+        margin-left: 75%;
+    }
+
+    .m-o-10 {
+        margin-left: 83.33333%;
+    }
+
+    .m-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+@media only screen and  (max-width:991.5px) {
+    .grid {
+        overflow: hidden;
+    }
+   .hide-on-mobile-taplet {
+        display: none;
+   }
+   .on-mobile-taplet {
+    display: block;
+    }
+    :root {
+        --header-height: 36px
+    }
+    .header {
+        background-color: #556270;
+    }
+    .navbar__link {
+        color: #333333;
+    }
+
+    .subslider__heading {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 4px;
+    }
+    .subslider__text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .m-6 img {
+        margin-bottom: 16px;
+        height: 150px;
+		
+    }
+    .m-6 .invite-img {
+        height:auto;
+        margin-bottom: unset;
+    }
+    .footer__list {
+        padding: 4px 0;
+    }
+    .slider-img {
+        display: none;
+    }
+    .subslider {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+  
+        background: #efefef;
+        padding-top: 20px;
+    }
+    .subslider__heading {
+        color: #333333;
+        padding-left: 8%;
+    }
+    .subslider__text {
+        color: #333333;
+        margin: 20px 0;
+        padding-left: 8%;
+    }
+}

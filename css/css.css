@@ -1,0 +1,304 @@
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+   
+    font-size: 62.5%;
+    line-height: 25px;
+    box-sizing: border-box;
+    font-family:Work+Sans;
+}
+
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+   
+}
+
+.header {
+    height: 46px;
+}
+
+.navbar {
+    height:46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    height: 46px;
+    line-height: 46px;
+    display: flex;
+}
+
+.navbar__link {
+    display: block;
+  
+    padding: 0 20px;
+    color:#333333;
+}
+
+.navbar__item {
+    font-size: 25px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-img {
+    display: block;
+    height: 450px;
+}
+.subslider {   
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+}
+
+.subslider__heading {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subslider__text {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.content {
+    background: #efefef;
+    padding: 20px 0 30px;
+}
+
+.content-head {
+    margin: 20px 0;
+}
+
+.content__heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.content__text {
+    color: #333333;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.mexico-img {
+    height:auto;
+    margin-bottom: 24px;
+}
+
+.tokyo-img {
+    height:auto;
+    margin-bottom: 24px;
+}
+
+.new-york-img {
+    height:auto;
+}
+
+.paris-img {
+    height:auto;
+}
+
+.invite-img {
+    height:auto;
+}
+
+.footer {
+    padding: 20px 0 30px;
+    background-color: #f7f7f7;
+}
+
+.footer__list {
+    display: block;
+}
+.footer__item h5 {
+    color: #333333;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.footer__item {
+    color: #333333;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 6px;
+}
+.footer__item a {
+    text-decoration:underline;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.row.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.c-0 {
+    display: none;
+}
+
+.c-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.c-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.c-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.c-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+
+.c-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.c-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.c-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.c-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.c-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+
+.c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+footer{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+h1{
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.btn-box{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.ttlh{
+padding-left:100px;}
